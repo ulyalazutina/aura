@@ -1,0 +1,149 @@
+@media (max-width:1300px) {
+    .new__slider {
+
+        justify-content: center;
+    }
+
+    .new__img {
+        width: 223px;
+        height: 223px;
+
+        &--long {
+            width: 465px;
+        }
+    }
+    .mailing{
+        justify-content: space-between;
+        &__input{
+            width: 262px;
+        }
+        &__btn{
+            width: 255px;
+        }
+    }
+
+}
+
+@media (max-width:1024px) {
+    .center {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .prime__wrap {
+        margin-right: 35px;
+    }
+
+    .auction__content-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .auction__img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .auction__timer-text {
+        font-size: 15px;
+    }
+
+    .auction__headline,
+    .auction__bet-sum,
+    .auction__timer-text--time {
+        font-size: 35px;
+    }
+
+    .auction__timer-inner--text {
+        gap: 43px;
+    }
+
+    .auction__bet {
+        width: 240px;
+    }
+
+    .auction__timer {
+        width: 340px;
+    }
+
+    .product-item--tablet {
+        display: none;
+    }
+
+    .new {
+        &__slider {
+            gap: 21px;
+        }
+
+    }
+
+
+
+
+}
+
+@media (max-width:1010px) {
+    .new__img--long {
+        display: none;
+    }
+
+    .new__slider {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .new__number--mobile {
+        display: flex;
+    }
+
+}
+
+@media (max-width:860px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .prime__btn-bg {
+        width: 150px;
+        height: 60px;
+    }
+
+    .prime__btn-br {
+        width: 200px;
+        height: 60px;
+    }
+
+    .auction__img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .auction__name {
+        font-size: 15px;
+    }
+
+    .auction__author {
+        width: 190px;
+    }
+
+    .auction__headline,
+    .auction__bet-sum,
+    .auction__timer-text--time {
+        font-size: 30px;
+    }
+
+    .auction__timer {
+        padding: 20px;
+        width: 300px;
+        gap: 32px;
+    }
+
+    .auction__timer-inner--text {
+        gap: 36px;
+    }
+
+    .auction__bet {
+        padding: 25px;
+    }
+
+}
